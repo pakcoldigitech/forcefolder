@@ -1,0 +1,22 @@
+{
+    "name": "forcefolder",
+    "publisher": "pakcoldigitech",
+    "displayName": "Force Folder",
+    "description": "Always open a workspace, never loose files",
+    "version": "0.0.1",
+    "categories": ["Other"],
+    "keywords": ["Pakuranga College", "Workspace", "Folder", "File"],
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#2c2c32",
+        "theme": "dark"
+    },
+    "qna": false,
+    "repository": "github:pakcoldigitech/forcefolder",
+    "license": "CC-BY-4.0",
+    "engines": { "vscode": "^1.65.0" },
+    "main": "extension",
+    "activationEvents": [
+        "onFileSystem:file"
+    ]
+}
